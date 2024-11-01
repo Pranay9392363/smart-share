@@ -1,0 +1,99 @@
+/* Navbar Container */
+.navbar {
+  width: 100%;
+  background-color: #4a90e2; /* Blue background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Logo Styling */
+.navbar-logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-logo a:hover {
+  color: #dfe6e9; /* Light grey color on hover */
+}
+
+/* Links Container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.navbar-links li {
+  display: flex;
+  align-items: center;
+}
+
+/* Link Styling */
+.navbar-links a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 5px 10px;
+}
+
+.navbar-links a:hover {
+  color: #dfe6e9;
+  border-bottom: 2px solid #dfe6e9; /* Adds underline effect on hover */
+}
+
+/* Log Out Button */
+.logout-button {
+  background-color: #7728b8; /* Red button for logout */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  width: 80px;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.logout-button:hover {
+  background-color: #5a287d;
+}
+
+.logout-button:active {
+  transform: scale(0.95); /* Button press effect */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .navbar-links a {
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .logout-button {
+    width: 100%;
+    padding: 10px;
+  }
+}

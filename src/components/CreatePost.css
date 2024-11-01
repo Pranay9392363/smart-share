@@ -1,0 +1,36 @@
+/* src/styles/CreatePost.css */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="file"] {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #0073b1; /* LinkedIn color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005582; /* Darker shade for hover */
+  }
+  
+  .error {
+    color: red;
+  }
+  

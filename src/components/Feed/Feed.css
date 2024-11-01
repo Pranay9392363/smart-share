@@ -1,0 +1,89 @@
+/* src/components/Feed.css */
+
+.feed {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Style for the individual post container */
+  .post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .post a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .post a:hover {
+    text-decoration: underline;
+  }
+  
+  .tags {
+    margin: 10px 0;
+  }
+  
+  .tags span {
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .post-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  .pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pdf-controls {
+    margin-top: 10px;
+  }
+  
+  .pdf-controls button {
+    margin: 0 5px;
+  }
+  
